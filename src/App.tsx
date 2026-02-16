@@ -62,6 +62,15 @@ const App = () => {
   if (!session || session.phase === 'home') {
     return (
       <main className="container">
+              <div style={{ display: "flex", justifyContent: "flex-end", gap: 8, marginBottom: 12 }}>
+        <button
+          className="secondary"
+          onClick={resetSession}
+          title="Reset the session and clear saved progress"
+        >
+          Reset
+        </button>
+      </div>
         <h1>Hebrew Flashcards</h1>
         <p>Repository size: {words.length} words</p>
         <button onClick={startSession} className="primary">Start Session</button>
