@@ -1,0 +1,30 @@
+# Build and distribution outputs
+build/
+dist/
+out/
+tmp/
+*.cache
+
+# Compiled/binary artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.bin
+*.class
+*.jar
+*.pyc
+
+# Common package/build caches
+node_modules/
+coverage/
+.npm/
+.pnpm-store/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
